@@ -1,0 +1,28 @@
+# Benchmark outputs and model data
+artifacts/
+logs/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Local environments and Python output
+.venv/
+__pycache__/
+*.py[cod]
+
+# LaTeX build intermediates
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.tex
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
