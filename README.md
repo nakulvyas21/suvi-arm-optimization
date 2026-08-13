@@ -3,6 +3,10 @@
 SUVI is a visually grounded, single-stream multimodal architecture. This
 repository deploys and optimizes SUVI on Arm cloud infrastructure.
 
+## Presentation
+
+[View the SUVI: Single-Stream Vision AI presentation](presentation/SUVI_Single_Stream_Vision_AI_Presentation.pdf)
+
 SUVI was introduced in the IEEE CAI 2026 paper, [SUVI: Scalable Unified Vector
 Intelligence for Efficient Edge Deployment](https://ieeexplore.ieee.org/document/11536337).
 This work is developed by Nakul Vyas at [Heysuvi Labs, LLC](https://heysuvi.com).
@@ -31,10 +35,6 @@ It includes the SUVI adapter, visual bridge, tokenizer files, and the frozen
 Phase 3 contract. Follow the [Arm setup guide](docs/ARM64_GUIDE.md) to run it.
 
 https://huggingface.co/nakulvyas21/suvi-phase3-flickr30k-arm
-
-## Presentation
-
-[SUVI: Single-Stream Vision AI presentation](presentation/SUVI_Single_Stream_Vision_AI_Presentation.pdf)
 
 ## Arm results
 
