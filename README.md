@@ -11,6 +11,11 @@ SUVI was introduced in the IEEE CAI 2026 paper, [SUVI: Scalable Unified Vector
 Intelligence for Efficient Edge Deployment](https://ieeexplore.ieee.org/document/11536337).
 This work is developed by Nakul Vyas at [Heysuvi Labs, LLC](https://heysuvi.com).
 
+The Phase 3 learned visual bridge in this repository is a post-paper SUVI
+development. It keeps the paper's discrete FSQ image representation while
+replacing vocabulary-extension visual tokens with a learned bridge into the
+Mistral input stream.
+
 ## SUVI
 
 SUVI converts an image into a visual prefix and combines it with text in one
@@ -20,10 +25,10 @@ visual bridge, and the decoder.
 The Phase 3 architecture passed held-out Flickr30k causal-prefix tests: real
 image prefixes outperformed shuffled, fixed, and random controls.
 
-This release is an architecture and visual-grounding checkpoint. It proves that
-the visual path carries image-specific information; it is not presented as a
-finished caption-quality model. More training is the next step for richer,
-production-grade captions.
+This release is the post-paper Phase 3 architecture and visual-grounding
+checkpoint. It proves that the visual path carries image-specific information;
+it is not presented as a finished caption-quality model. More training is the
+next step for richer, production-grade captions.
 
 [Architecture](docs/ARCHITECTURE.md)
 
